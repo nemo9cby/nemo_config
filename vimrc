@@ -22,7 +22,7 @@ set path+=**
 set wildmenu
 
 " set clipboard to system
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 set splitbelow
 set splitright
