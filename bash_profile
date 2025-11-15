@@ -163,7 +163,8 @@ export RAY_ROOT_DIR="/data/.cache/ray"
 export WANDB_API_KEY="*******************8"
 
 # 设置 LD_LIBRARY_PATH，这是配置 flash attention 踩的坑，遇到问题可以参考
-export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64:$LD_LIBRARY_PATH
+# Boyuan: 改到个通用的 cuda 路径，原 po 使用 cuda 12.6
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
 # 用于分配显卡的函数，al k 可以分配 k 张空闲的卡
 
