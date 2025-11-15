@@ -85,10 +85,10 @@ alias cur="cursor"
 alias cod="code"
 
 # 打开配置文件
-alias ope="cursor /data/chayenne/.zshrc"
+alias ope="vim /home/boyuan/.bashrc"
 
 # 用 cursor 打开当前路径下的文件
-alias co="cursor ."
+# alias co="cursor ."
 
 # 快速查看 GPU 使用情况
 alias nvi="nvidia-smi"
@@ -161,7 +161,7 @@ export HF_HOME="/shared_workspace_mfs/.cache/huggingface"
 # export HOME="/data/boyuan"
 
 # 设置 ray 的 cache 路径，如果不用 ray 不太需要管
-export RAY_ROOT_DIR="/data/.cache/ray"
+# export RAY_ROOT_DIR="/data/.cache/ray"
 
 # 设置 wandb 的 api key
 export WANDB_API_KEY="*******************8"
