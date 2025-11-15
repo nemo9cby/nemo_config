@@ -150,8 +150,12 @@ export HF_TOKEN="************************"
 
 # 设置 huggingface 的 cache 路径，请一定配置好，避免一个集群重复下载某个模型多次
 
-export HF_DATASETS_CACHE="/data/.cache/huggingface/datasets"
-export HF_HOME="/data/.cache/huggingface"
+export HF_DATASETS_CACHE="/shared_workspace_mfs/.cache/huggingface/datasets"
+export HF_HOME="/shared_workspace_mfs/.cache/huggingface"
+
+
+# export HF_DATASETS_CACHE="/data/.cache/huggingface/datasets"
+# export HF_HOME="/data/.cache/huggingface"
 
 # 设置个人默认路径，我一般连带着所有数据一起放在 /data 下
 # export HOME="/data/boyuan"
